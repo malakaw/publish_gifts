@@ -1,0 +1,2 @@
+opshin==0.27.1
+pycardano==0.17.0
