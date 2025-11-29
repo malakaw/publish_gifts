@@ -158,7 +158,9 @@ python takeGiftFromContract.py
 builder.add_script_input(utxo=refernce_script_utxo, redeemer=redeemer)
 ```
 
-
+# 注意点
+由于合约内容会生成合约地址，所以同一份合约那么地址是一样的， 为了不和其他人的测试产生冲突或是，数据看上去不要那么繁多，可以在合约中稍微更改下，。
+那么大家有不同的合约地址，测试比较干净。
 
 # 参考
 [pycardano Smart Contracts](https://pycardano.readthedocs.io/en/latest/guides/plutus.html)
