@@ -27,8 +27,7 @@ python3 -m pip install -r requirements.txt
 ```
 python3 -m venv venv
 source venv/bin/activate
-pip install opshin
-opshin build gift.py
+ 
 ```
 
 ## 安装准备4
